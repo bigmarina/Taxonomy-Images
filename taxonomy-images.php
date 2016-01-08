@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name:          Taxonomy Images
-Plugin URI:           http://wordpress.mfields.org/plugins/taxonomy-images/
-Description:          Associate images from your media library to categories, tags and custom taxonomies.
+Plugin Name:          Kunsthaus Taxonomy Images
+Plugin URI:           https://github.com/bigmarina/Taxonomy-Images
+Description:          Forked Associate images from your media library to categories, tags and custom taxonomies.
 Version:              0.7.3
 Author:               Michael Fields
 Author URI:           http://wordpress.mfields.org/
