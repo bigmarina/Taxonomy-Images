@@ -397,9 +397,10 @@ function taxonomy_image_plugin_control_taxonomies() {
 		if ( ! isset( $taxonomy->label ) ) {
 			continue;
 		}
-		if ( ! isset( $taxonomy->show_ui ) || empty( $taxonomy->show_ui ) ) {
+	/*	if ( ! isset( $taxonomy->show_ui ) || empty( $taxonomy->show_ui ) ) {
 			continue;
 		}
+		*/
 		$id = 'taxonomy-images-' . $taxonomy->name;
 		$checked = '';
 		if ( isset( $settings['taxonomies'] ) && in_array( $taxonomy->name, (array) $settings['taxonomies'] ) ) {
